@@ -14,7 +14,7 @@ end
   # celsius = (fahrenheit - 32) x 5/9
 
 def farenheit_to_celsius(farenheit)
-  (farenheit - 32) * 5/9
+  ((farenheit - 32) * 5/9.0).round(2)
 
 end
 
